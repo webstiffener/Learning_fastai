@@ -56,8 +56,6 @@ conda install -c menpo ffmpeg
 echo "[global]
 device = cuda0
 floatX = float32
-dnn.enabled=False
-gpuarray.preallocate=0.8
 
 [cuda]
 root = /usr/local/cuda-8.0/bin" > ~/.theanorc
