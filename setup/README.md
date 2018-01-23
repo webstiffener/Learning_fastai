@@ -11,7 +11,7 @@ The wiki recommended [this guide](https://github.com/philferriere/dlwin), which 
 
 1. Unzip the VS2015 installation file before install it, or you might get a "missing package" error or something like that, although you can solve it by copying the `packages` folder from the .zip file to the missing directory.
 
-2. Install Anaconda with python2.7 as Fast.ai recommended, however install a python3.6 version is not a problem, just remember to use `conda create --yes -n python ==2.7 dlwin27` when you create your deep learning environment.
+2. Install Anaconda with python2.7 as Fast.ai recommended, however install a python3.6 version is not a problem, just remember to use `conda create --name dlwin27 python=2.7` when you create your deep learning environment.
 
 3. Do rememer to `activate dlwin27` before installing any python packages, or you will install it to the main conda environment instead of dlwin27.
 
